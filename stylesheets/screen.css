@@ -1,0 +1,162 @@
+body {
+	padding: 50px 20px 20px 50px;
+	margin: 0;
+	background: #fff;
+	font: 13px/1.5em helvetica, arial, sans;
+	color: #082940;
+	}
+.clearer {
+clear: both;
+font-size: 1px;
+line-height: 1px;
+height: 1px;
+}
+.langmenu {
+        width: 600px;
+        padding: 20px 20px 0;
+        margin: 0;
+        text-align: right;     
+}
+.langmenu li {
+         display: inline;
+         padding: 0 5px; 
+}
+.langmenu .active {
+font-weight: bold;
+}
+.langmenu a {
+	padding: 3px;
+	margin: -3px;
+	color: #abacb6;
+        font-size: 11px;
+	text-decoration: none;
+	}
+.langmenu a:visited {
+	color: #abacb6;
+	}
+.langmenu a:hover {
+	color: #abacb6;
+	background-color: #05b;
+	}
+
+.intro {
+	padding: 10px 20px 20px;
+	width: 600px;
+	background-color: #efefef;
+	color: #2d3b4a;
+	}
+.intro a, .login a {
+	padding: 3px;
+	margin: -3px;
+	color: #05b; 
+	text-decoration: none;
+	}
+.intro a:visited {
+	color: #bbb;
+	}
+.intro a:hover {
+	color: #fff;
+	background-color: #05b;
+	}
+.intro h1, .intro h2 {
+	margin: 0.8em 0 0 0;
+	}
+.intro p, .intro ul {
+	margin: 0 0 0.5em 0;
+	}
+.intro ul {
+	padding: 0 0 0 2em;
+	}
+.intro h1, .intro h1 a:visited {
+	font: 30px/36px georgia, serif;
+	color: #05b;
+	}
+.intro h1 a:visited:hover {
+  color: #fff;
+}
+.intro h2, .intro h2 a:visited {
+	font: 20px/20px georgia, serif;
+	color: #05b;
+	}
+.intro h3 {
+	font-size: 13px;
+	color: #858897;
+	margin: 0 0 0.8em 0;
+	font-weight: normal;
+	}
+.intro hr {
+	border: none;
+	border-bottom: dashed 2px #ddd;
+	margin: 15px 0 15px 0;
+	}
+.intro table {
+	padding: 0;
+	margin: 0;
+	}
+.intro table.comment {
+	margin-top: 20px;
+	padding: 0 20px 10px 20px;
+	background: #ddd;
+	width: 600px;
+	}
+.intro table h2 {
+	margin-bottom: 10px;
+	}
+.intro form .text {
+	width: 150px;
+	height: 20px;
+	padding-left: 2px;
+	font-family: monospace;
+	}
+.intro form textarea {
+	width: 400px;
+	height: 100px;
+	padding: 2px;
+	}
+.menu {
+	font-size: 9px;
+	padding-bottom: 20px;
+	white-space: nowrap;
+	}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.menu a:link, .menu a:visited {
+	border-bottom: dotted 1px #aaa;
+	color: #abacb6;
+	}
+.menu a:hover {
+	color: #fff;
+	}
+.menu li {
+	/*float: left;*/
+	padding-right: 15px;
+	list-style: none;
+	}
+
+.menu .active {
+	font-weight: bold;
+	}
+.login {
+	text-align: right;
+	font-size: 9px;
+	padding: 5px 5px 0 0;
+	width: 630px;
+	}
+.login a:hover {
+	color: #fff;
+	background-color: #05b;
+	}
+.author {
+	font-size: 11px;
+	text-transform: uppercase;
+	}
+.date {
+	color: #858897;
+	}
+td.date {
+	font-size: 11px;
+	width: 70px;
+	}

@@ -1,0 +1,312 @@
+.clearfix:after {
+  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+}
+
+body {
+/*padding: 50px 20px 20px 50px;*/
+        padding: 0;
+margin: 0;
+background: #fff;
+font: 13px/1.5em helvetica, arial, sans;
+color: #082940;
+}
+a img {
+  border: none;
+}
+#wrap {
+padding: 50px 20px 20px 50px;
+max-width: 640px;
+}
+pre {
+white-space: normal;
+}
+.clearer {
+clear: both;
+font-size: 1px;
+line-height: 1px;
+height: 1px;
+}
+.langmenu {
+        padding: 20px 20px 0;
+        margin: 0;
+        text-align: right;     
+}
+.langmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none,
+}
+.langmenu li {
+         display: block;
+         float: left;
+         padding: 5px 5px;
+}
+.langmenu .active {
+font-weight: bold;
+}
+.langmenu a {
+        display: block;
+        float: left;
+padding: 3px;
+margin: -3px;
+color: #abacb6;
+    font-size: 11px;
+text-decoration: none;
+}
+.langmenu a:visited {
+color: #abacb6;
+}
+.langmenu a:hover {
+color: #abacb6;
+background-color: #05b;
+}
+
+.intro {
+padding: 10px 20px 20px;
+background-color: #efefef;
+color: #2d3b4a;
+}
+.intro a, .login a {
+padding: 3px;
+/*margin: -3px;*/
+color: #05b;
+text-decoration: none;
+}
+.intro a:visited {
+color: #bbb;
+}
+.intro a:hover {
+color: #fff;
+background-color: #05b;
+}
+.intro h1, .intro h2 {
+margin: 0.8em 0 0.5em 0;
+}
+.intro p, .intro ul, .intro ol {
+margin: 0 0 0.5em 0;
+}
+.intro ul, .intro ol {
+padding: 0 0 0 2em;
+}
+.intro h1, .intro h1 a:visited {
+font: 30px/36px georgia, serif;
+color: #05b;
+}
+.intro h1 a:visited:hover {
+  color: #fff;
+}
+.intro h2, .intro h2 a:visited {
+font: 20px/20px georgia, serif;
+color: #05b;
+}
+.intro h3 {
+font-size: 13px;
+color: #858897;
+margin: 0 0 0.8em 0;
+font-weight: normal;
+}
+.intro hr {
+border: none;
+border-bottom: dashed 2px #ddd;
+margin: 15px 0 15px 0;
+}
+.intro table {
+padding: 0;
+margin: 0;
+}
+.intro table.comment {
+margin-top: 20px;
+background: #ddd;
+width: 100%;
+}
+.intro table h2 {
+margin-bottom: 10px;
+padding: 0 20px 10px 20px;
+}
+.intro form .text {
+width: 150px;
+height: 20px;
+padding-left: 2px;
+font-family: monospace;
+}
+.commentform { width: 100%;}
+.intro form textarea {
+width: 100%;
+height: 100px;
+padding: 2px;
+}
+.menu {
+padding-bottom: 20px;
+padding-top:10px;
+}
+.menu ul {
+margin: 0;
+padding: 0;
+list-style: none;
+        clear: both;
+}
+.menu ul.main {
+font-size:14px;
+}
+.menu .sub {
+margin-top:7px;
+font-size:11px;
+}
+.menu a:link, .menu a:visited {
+border-bottom: dotted 1px #aaa;
+color: #abacb6;
+}
+.menu a:hover {
+color: #fff;
+}
+.menu a {
+        display: inline-block;
+        line-height: 25px;
+margin-right: 15px;
+list-style: none;
+background: #EFEFEF;
+}
+
+.active {
+font-weight: bold;
+}
+.login {
+text-align: right;
+font-size: 9px;
+padding: 5px 5px 0 0;
+}
+.login a:hover {
+color: #fff;
+background-color: #05b;
+}
+.author {
+font-size: 11px;
+text-transform: uppercase;
+}
+.date {
+color: #858897;
+}
+td.date {
+font-size: 11px;
+width: 70px;
+}
+
+
+  #search form { float: right;}
+
+#content-inner {
+overflow: hidden;
+  padding-bottom: 1px;
+}
+.blogseparator {
+margin-top: 30px !important;
+}
+#articlebody {
+padding-top: 15px;
+}
+#menu a {
+  display: inline-block;
+}
+/* forms */
+
+   .form_area {
+
+      margin: 20px 0;
+
+}
+
+.form_field {
+
+  margin: 0 0 5px;
+
+}
+.form_field label {
+  display: block;
+  font-weight: bold;
+}
+
+.form_error {
+
+  color: #c71414;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  border: 1px dotted #c71414;
+
+  padding: 5px;
+
+}
+
+.form_field_error {
+
+  color: #c71414;
+
+  font-size: 10px;
+  line-height: 14px;
+
+}
+
+.form_notice {
+
+  color: green;
+
+  border: 1px dotted green;
+
+  padding: 5px;
+
+}
+.form_field_size_large {
+
+width: 98%;
+
+}
+
+.form_field_size_medium {
+
+width: 50%;
+
+}
+.form_field_size_small {
+
+width: 25%;
+
+}
+.photo_gallery_area a:hover {
+  background: none;
+}
+ul.sub li {
+  float: left;
+  white-space: nowrap;
+}
+
+#content-inner img {
+  max-width: 100%;
+}
+@media screen and (max-width:710px) {
+  #wrap {
+    padding: 20px;
+  }
+}
+@media screen and (max-width:480px) {
+  #wrap {
+    padding: 10px;
+  }
+  .intro h1, .intro h1 a:visited {
+    font-size: 20px; line-height: 26px;
+  }
+  .blogseparator {
+    margin: 10px 0 !important;
+  }
+  .menu { padding-bottom: 10px !important;}
+  #search form { float: none;}
+    #search form input {width: 100%;}
+  .langmenu {padding-top: 0 !important;}
+  .menu {padding-top: 0 !important;}
+  .intro {padding: 10px !important;}
+  .comment td {display: block; width: 100%;
+    padding: 10px !important;}
+    .comment td.date {margin-top: 10px;}
+    .comment h2 {margin-bottom: 0 !important; padding-left: 0 !important; padding-right: 0 !important;}
+}
