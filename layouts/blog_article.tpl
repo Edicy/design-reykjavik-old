@@ -11,7 +11,7 @@
 <body>
 <div id="wrap">
 <div id="search" class="clearfix">
- {% if site.search.enabled %}<form action="">
+ {% if site.search.enabled %}<form action="" class="edys-search">
 <div>
 <input type="text" id="onpage_search"/>
 </div>
@@ -90,8 +90,8 @@
   
   <!-- <img src="{{ images_path }}/author-{{ article.author.username }}.jpg" alt="{{ article.author.name }}" title="{{ article.author.name }}" align="left" /> -->
 
-    <div class="clearfix">{% editable article.excerpt %}</div>
-<div id="articlebody" class="clearfix">
+    <div class="clearfix" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+<div id="articlebody" class="clearfix" data-search-indexing-allowed="true">
                 
   {% editable article.body %}
     </div>

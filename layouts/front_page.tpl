@@ -10,7 +10,7 @@
 <body>
 <div id="wrap">
 <div id="search" class="clearfix">
-{% if site.search.enabled %}<form action="">
+{% if site.search.enabled %}<form action="" class="edys-search">
 <div>
 <input type="text" id="onpage_search"/>
 </div>
@@ -76,7 +76,7 @@
   {% endif %}
   {% endfor %}
   </div>
-         <div id="content-inner" class="clearfix">
+         <div id="content-inner" class="clearfix" data-search-indexing-allowed="true">
 {% content %}
          </div>
          <div class="clearer"></div>
