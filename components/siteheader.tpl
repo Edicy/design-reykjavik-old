@@ -4,7 +4,7 @@
    <meta name="author" content="{{ site.author }}" />
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	{% stylesheet_link "style.css?reykjavik" %}
-	{% if editmode %}<link href="{{ site.static_asset_host }}/assets/admin/editmode.css" media="screen" rel="stylesheet" type="text/css">{% endif %}
+	{% if editmode %}<style>.untranslated{opacity:.5;filter:alpha(Opacity=50);zoom:1}</style>{% endif %}
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
