@@ -80,7 +80,7 @@
   {% endif %}
   {% endfor %}
   </div>
-  <div id="content-inner">
+  <div id="content-inner" class="clearfix">
     {% addbutton class="add-article" %}
   {% for article in articles %}
   <h1>

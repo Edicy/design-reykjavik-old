@@ -79,7 +79,7 @@
   {% endif %}
   {% endfor %}
   </div>
-  <div id="content-inner">
+  <div id="content-inner" class="clearfix">
   <h1>
    {% editable article.title plain="true" %}
    <span class="date">{{ article.created_at | format_date:"short" }}</span>
