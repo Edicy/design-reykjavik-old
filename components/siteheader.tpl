@@ -22,5 +22,5 @@ display: inline;
 <![endif]-->
 <!--[if lt IE 7]>{% stylesheet_link "ie.css" %}<![endif]-->
 
-<!--[if IE]><link rel="stylesheet" type="text/css" href="http://static.edicy.com/assets/ie.css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 <meta name="viewport" content="initial-scale=1" />
