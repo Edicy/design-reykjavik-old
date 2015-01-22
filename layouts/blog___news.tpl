@@ -13,7 +13,7 @@
 <div id="search" class="clearfix">
 {% if site.search.enabled %}<form action="" class="edys-search">
 <div>
-<input type="text" id="onpage_search"/>
+<input type="text" id="onpage_search" placeholder="{{  "search" | lc }}"/>
 </div>
 </form>
 {% endif %}
