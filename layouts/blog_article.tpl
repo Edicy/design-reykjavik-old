@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div id="wrap">
+<div id="wrap" class="content-hyphenate">
 <div id="search" class="clearfix">
  {% if site.search.enabled %}<form action="" class="edys-search">
 <div>
